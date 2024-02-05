@@ -2,7 +2,7 @@
 This file contains doumentation for Bingeflix data sources.
 
 ## Events
-This section contains documentation from the Bingeflix behavioral events while interacting with the platform. 
+This section contains documentation from the Bingeflix behavioral events while interacting with the platform.
 
 {% docs table_events %}
     This table contains information about the behavioral events of users while they interact with the Bingeflix platform.
@@ -21,7 +21,7 @@ This section contains documentation from the Bingeflix behavioral events while i
 {% enddocs %}
 
 {% docs bingeflix_column_event_name %}
-    The name of the event. 
+    The name of the event.
 {% enddocs %}
 
 {% docs bingeflix_column_event_id %}

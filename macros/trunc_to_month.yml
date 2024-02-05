@@ -1,0 +1,6 @@
+models:
+  - name: trunc_to_month
+    description: Truncating date time to month.
+    columns:
+      - name: date_time
+        description: The date time that should be truncated into month.

@@ -1,0 +1,15 @@
+models:
+  - name: rolling_average_periods
+    description: Calculating a rolling average over selected period.
+    columns:
+      - name: column_name
+        description: Name of the column to calculate the average on.
+
+      - name: periods
+        description: The period over which the average should be calculated, could be 7, 14, 28 etc days. Default set to 7 days.
+
+      - name: partition_by
+        description: Over what value the partition should be done by.
+
+      - name: order_by
+        description: What value the calculation should be ordered by. Default set to current_date, but can be other values.
