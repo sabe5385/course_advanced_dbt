@@ -7,14 +7,16 @@ models:
         tests:
           - not_null
 
-      - name: avg_7_periods_num_events
+      - name: avg_6_periods_num_events
         description: The rolling average of events over a 7 day period.
+        tests:
+          - not_null
 
-      - name: avg_14_periods_num_events
+      - name: avg_13_periods_num_events
         description: The rolling average of events over a 14 day period.
 
-      - name: avg_28_periods_num_events
+      - name: avg_27_periods_num_events
         description: The rolling average of events over a 28 day period.
 
-      - name: avg_90_periods_num_events
+      - name: avg_89_periods_num_events
         description: The rolling average of events over a 90 day period.

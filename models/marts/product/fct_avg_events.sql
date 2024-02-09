@@ -11,9 +11,9 @@ WITH num_events AS (
 
 SELECT
     created_at,
-    {{ rolling_average_periods('num_events', 'created_at', 'created_at', '7') }},
-    {{ rolling_average_periods('num_events', 'created_at', 'created_at', '14') }},
-    {{ rolling_average_periods('num_events', 'created_at', 'created_at', '28') }},
-    {{ rolling_average_periods('num_events', 'created_at', 'created_at', '90') }}
+    {{ rolling_average_periods('num_events', 'created_at', 'created_at', '6') }},
+    {{ rolling_average_periods('num_events', 'created_at', 'created_at', '13') }},
+    {{ rolling_average_periods('num_events', 'created_at', 'created_at', '27') }},
+    {{ rolling_average_periods('num_events', 'created_at', 'created_at', '89') }}
 
 FROM num_events
