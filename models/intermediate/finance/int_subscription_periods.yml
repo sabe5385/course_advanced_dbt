@@ -1,0 +1,9 @@
+models:
+  - name: int_subscription_periods
+    description: This is an intermediate model that defines all subsciption periods.
+    columns:
+      - name: subscription_id
+        description: The unique identifier for the subsciption
+        tests:
+          - not_null
+          - unique
